@@ -1,3 +1,4 @@
+import "dotenv/config"
 import { fetchUsers } from "./fetchUsers"
 import { transformUsers } from "./transformUsers"
 import { sendUsers } from "./sendUsers"
