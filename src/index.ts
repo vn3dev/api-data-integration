@@ -1,5 +1,6 @@
 import { fetchUsers } from "./fetchUsers"
 import { transformUsers } from "./transformUsers"
+import { sendUsers } from "./sendUsers"
 
 async function main() {
   try {
@@ -14,6 +15,10 @@ async function main() {
 
     console.log("dados transformados:")
     console.log(transformedUsers)
+
+    await sendUsers(transformedUsers)
+
+    console.log("usuários enviados com sucesso para o webhook")
   } catch (error) {
     console.error("erro na integração:", error)
   }
