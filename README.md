@@ -10,7 +10,7 @@ API pública → buscar usuários → transformar payload → enviar para webhoo
 
 ### JSON que vem da API:
 
-```json
+```js
   {
     id: 10,
     name: 'Clementina DuBuque',
@@ -35,7 +35,7 @@ API pública → buscar usuários → transformar payload → enviar para webhoo
 
 ### JSON tratado enviado para o webhook:
 
-```json
+```js
   {
     externalId: 10,
     fullName: 'Clementina DuBuque',
