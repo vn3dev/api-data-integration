@@ -44,6 +44,15 @@ API pública → buscar usuários → transformar payload → enviar para webhoo
   }
 ```
 
+## Fluxo n8n
+
+Refiz o projeto utilizando n8n de forma simples, meu workflow ficou assim:
+
+![workflow n8n](img/n8n-fluxo.jpg)
+
+E o POST no webhook ficou assim:
+
+![webhook POST](img/webhook-print.jpg)
 
 ## Instalação
 
